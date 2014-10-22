@@ -1,0 +1,38 @@
+*******************************************************************
+*                                                                 *
+* Subject: OS/2 Magazine, GUI Corner column,                      *
+*          "A Picture Perfect Control - The Sequel" -             *
+*          November 1996 issue.                                   *
+* Purpose: Compilable 32-Bit source code sample to demonstrate    *
+*          writing frame control extensions for OS/2.             *
+* Authors: Matt Smith, Prominare Inc.                             *
+*          Mark Benge, IBM Software Solutions                     *
+*                                                                 *
+* Revisions:                                                      *
+*          Version 1   - Initial cut                              *
+*                                                                 *
+*******************************************************************
+*******************************************************************
+********************  D I S C L A I M E R  ************************
+* This code is provided on an asis basis with no implied support. *
+* It should be considered freeware that cannot be rebundled as    *
+* part of a larger "*ware" offering without our consent.          *
+*******************************************************************
+*
+* This self-extracting zip file contains the source and executable to
+* demonstrate writing frame control extensions for OS/2.  We've included
+* a makefile for the IBM VisualAge C++ for OS/2 compiler.
+*
+* PLEASE SEE README.1ST FOR UP-TO-THE-MINUTE INFORMATION.
+*
+* Please direct any comments, questions, and such to either Matt Smith
+* (Internet: msmith@prominare.com CompuServe: 70363,1175) or Mark Benge
+* (Internet: banzai@raleigh.ibm.com CompuServe: 73532,2063
+* NOTES: banzai@RTPNOTES)
+*
+* Please note that this code is freeware and is provided on an "AS IS"
+* basis, without any type of support.
+*
+* Stay tuned for the December '96 issue of OS/2 Magazine,
+* as we conclude our frame control series.
+*

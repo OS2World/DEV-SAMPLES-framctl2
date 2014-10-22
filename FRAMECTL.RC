@@ -1,0 +1,17 @@
+#include "framectl.h"
+
+BITMAP HELP_BUTTON_ID   help.bmp
+BITMAP HELP_BUTTON2_ID  helpmrln.bmp
+
+MENU FRAME_WND_ID
+BEGIN
+  SUBMENU "~File",  MI_FILE
+  BEGIN
+    MENUITEM "E~xit",  MI_FILE_EXIT
+  END
+  SUBMENU "~Cat",  MI_CAT
+  BEGIN
+    MENUITEM "~Next Issue",  MI_CAT_TBD
+  END
+END
+

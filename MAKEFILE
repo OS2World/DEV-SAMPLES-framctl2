@@ -1,0 +1,18 @@
+CC=Icc
+C_SW=-G5 -O+ -W3 -C
+C_SWDEBUG=-G5 -Ti+ -W3 -C
+C_LINK=
+C_LINKDEBUG=/DE
+
+FrameCtl.Exe: FrameCtl.Obj FrameCtl.Res FrameCtl.Hlp
+  ilink $(C_LINK) @FrameCtl.Lnk;
+  rc FrameCtl.Res FrameCtl.Exe
+
+FrameCtl.Obj: FrameCtl.C FrameCtl.H
+ $(CC) $(C_SW) -FoFrameCtl.Obj FrameCtl.C
+
+FrameCtl.Res: FrameCtl.Rc FrameCtl.H
+ rc -r FrameCtl.Rc
+
+FrameCtl.Hlp: FrameCtl.Ipf
+ ipfc FrameCtl.Ipf
